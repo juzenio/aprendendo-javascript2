@@ -11,15 +11,19 @@
         
         
         var c = 0
-        const num = [5]
+        const num = []
+  
+       while (c < 5) {
+        num[c] = window.prompt(' digite um numero') 
+        c++
+      
+    } 
+    console.log(num)
+           
+           
         
-        while (c  <= num.length) {
-            
-            const num =  window.prompt("escreva um numero " + c)
-            c++ 
-            document.write("<br/>" + "posiçao" + c + "é" + " " + num[c])
-            
-        } alert(num.length)
+
+        
            
             
            
